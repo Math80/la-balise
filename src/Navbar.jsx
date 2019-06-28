@@ -7,7 +7,7 @@ function Navbar() {
     <div className="Navbar">
       <nav id="nav">
         <ul className="Header">
-          <li><NavLink activeClassName="active" exact to="/">Accueil</NavLink></li>
+          <li><NavLink activeClassName="active" exact to="/">ACCUEIL</NavLink></li>
           <li><NavLink activeClassName="active" to="/video">VIDÉO</NavLink></li>
           <li><NavLink activeClassName="active" to="/quizz">QUIZZ</NavLink></li>
           <li><NavLink activeClassName="active" to="/resultats">RÉSULTATS</NavLink></li>

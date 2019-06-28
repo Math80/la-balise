@@ -18,7 +18,6 @@ function App() {
        {/* <Route path="/quizz" component={Quizz} /> */}
        <Route path="/resultats" component={Results} />
        </Switch>
-       <Video />
        <Footer />
     </div>
   );
