@@ -5,6 +5,8 @@ import Question3 from './Question3';
 import Question4 from './Question4'
 import Question5 from './Question5'
 
+import './Quizz.scss';
+
 
 /* const questions = [
   {Question1: 'Qu\'en pensez-vous?'},
@@ -68,8 +70,20 @@ class Quizz extends Component {
       <div className="Quizz">
         <h1> {step} </h1>
         {this.nextQuestions()}
-        <button  onClick={this.removeOne}>QUESTION PRÉCÉDENTE</button>
-        <button onClick={this.addOne}>QUESTION SUIVANTE</button>
+        <div className="pads">
+          <div>
+            <input className="sortTriangle" type='submit' onClick={this.removeOne} value='' />
+            <input className="sortCross"type='submit' onClick={this.removeOne} value='' />
+          </div>
+          <div className="squarecircle">
+          <input className="sortCircle" type='submit' onClick={this.removeOne} value='' />
+            <input className="sortSquare"type='submit' onClick={this.removeOne} value='' />
+          </div>
+        </div>
+        <div className="clickPads">
+          <button  onClick={this.removeOne}>QUESTION PRÉCÉDENTE</button>
+          <button onClick={this.addOne}>QUESTION SUIVANTE</button>
+        </div>
       </div>
     );
   }
