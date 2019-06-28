@@ -2,23 +2,23 @@
   .sortCross{
     border: none;
     outline: none;
-
+    background-color: transparent;
     width: 200px;
     height: 200px;
     background-image: url(/images/cross.png);
     &:hover {
       transform: scale(1.01);
-          transition: transform .2s;
+      transition: transform .2s;
     }
     &:active {
       transform: scale(0.9);
-          transition: transform .2s;
+      transition: transform .2s;
     }
   }
   .sortCircle{
     border: none;
     outline: none;
-
+    background-color: transparent;
     width: 200px;
     height: 200px;
     background-image: url(/images/circle.png);
@@ -28,39 +28,74 @@
     }
     &:active {
       transform: scale(0.9);
-          transition: transform .2s;
+      transition: transform .2s;
     }
   }
   .sortSquare{
     border: none;
     outline: none;
-
+    background-color: transparent;
     width: 200px;
     height: 200px;
     background-image: url(/images/square.png);
     &:hover {
       transform: scale(1.01);
-          transition: transform .2s;
+      transition: transform .2s;
     }
     &:active {
       transform: scale(0.9);
-          transition: transform .2s;
+      transition: transform .2s;
     }
   }
   .sortTriangle{
     border: none;
     outline: none;
-
+    background-color: transparent;
     width: 200px;
     height: 200px;
     background-image: url(/images/triangle.png);
     &:hover {
       transform: scale(1.01);
-          transition: transform .2s;
+      transition: transform .2s;
     }
     &:active {
       transform: scale(0.9);
-          transition: transform .2s;
+      transition: transform .2s;
     }
+  }
+  .Question1 {
+    img {
+      width: 50px;
+      margin-right: 20px;
+    }
+  }
+  .Question2 {
+    img {
+      width: 50px;
+      margin-right: 20px;
+    }
+  }
+  .Question3 {
+    img {
+      width: 50px;
+      margin-right: 20px;
+    }
+  }
+  .Question4 {
+    img {
+      width: 50px;
+      margin-right: 20px;
+    }
+  }
+  .Question5 {
+    img {
+      width: 50px;
+      margin-right: 20px;
+    }
+  }
+  button {
+    height: 30px;
+    background-color: lightblue;
+    margin: 10px;
   }
 }
