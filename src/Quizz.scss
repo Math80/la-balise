@@ -1,0 +1,66 @@
+.Quizz {
+  .sortCross{
+    border: none;
+    outline: none;
+
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/cross.png);
+    &:hover {
+      transform: scale(1.01);
+          transition: transform .2s;
+    }
+    &:active {
+      transform: scale(0.9);
+          transition: transform .2s;
+    }
+  }
+  .sortCircle{
+    border: none;
+    outline: none;
+
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/circle.png);
+    &:hover {
+      transform: scale(1.01);
+          transition: transform .2s;
+    }
+    &:active {
+      transform: scale(0.9);
+          transition: transform .2s;
+    }
+  }
+  .sortSquare{
+    border: none;
+    outline: none;
+
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/square.png);
+    &:hover {
+      transform: scale(1.01);
+          transition: transform .2s;
+    }
+    &:active {
+      transform: scale(0.9);
+          transition: transform .2s;
+    }
+  }
+  .sortTriangle{
+    border: none;
+    outline: none;
+
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/triangle.png);
+    &:hover {
+      transform: scale(1.01);
+          transition: transform .2s;
+    }
+    &:active {
+      transform: scale(0.9);
+          transition: transform .2s;
+    }
+  }
+}
