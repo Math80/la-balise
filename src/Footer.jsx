@@ -8,6 +8,10 @@ function Footer() {
     <div className="Footer">
       <Link to="/mentions-legales">Mentions légales</Link>
       <Link to="/contact">Contact</Link>
+    
+    
+      <a href="a">made with<span className="heart">&hearts;</span> by 6ber</a>
+    
     </div>
   );
 }
